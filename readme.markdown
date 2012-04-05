@@ -1,20 +1,20 @@
-#Unofficial Github Widget
+###Share GitHub
+Want to share your repo's and activity on your blog or portfolio? This simple widget allows you to embed an iframe widget that pulls from a specific account and repo on Github.  
 
-A Github widget like 'Facebook Like Box'.
+### Get Started
+All you have to do is download this repo and modify the iframe found in example.html.  
 
-###Usage
-
-Code:
-
+#### From command line:
 ```
-<iframe src="github-widget.html?user=twitter&repo=bootstrap" allowtransparency="true" frameborder="0" scrolling="0" width="292" height="290"></iframe>
+$ cd /where/you/want/your/repo/
+$ git clone git@github.com:montanaflynn/Github-Widget.git
+$ nano Github-Widget/example.html
 ```
 
-###TODO
+### Coming Soon
+Multiple Repo Support, 
+jQuery Plugin ( No iFrame ), 
+More Themes
 
-- Improve code
-- Add a 'stream' option (Commit History)
-- Maybe an option for users
-
-
-Code based on: https://github.com/markdotto/github-buttons
+### Authors and Contributors
+This widget is a fork from @ruanmer's <a href="https://github.com/ruanmer/Github-Widget">original Github-Widget</a>.  Apparently it is also based off @markdotto's <a href="https://github.com/markdotto/github-buttons">GitHub-Buttons</a>.  Additionally it relies on the GitHub API, so thanks to everyone involved on that.
