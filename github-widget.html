@@ -24,13 +24,24 @@ a:hover {
     padding: 7px 10px;
     overflow: hidden;
 }
+#gh-widget-top a {
+    color: white;
+}
+
 #gh-widget-top span {
     float: left;
-    margin: 2px 0 0;
+    margin: 4px 0 0;
 }
-#gh-widget-top a {
-    float:right;
+
+#gh-widget-top span.github-logo {
+	float: right;
+	background: url(github-logo.png) no-repeat;
+	height: 20px;
+	width: 20px;
+	position: relative;
+	bottom: 2px;
 }
+
 #gh-widget-head {
     border-bottom: 1px solid #CCC;
     padding: 2px 5px 5px;
@@ -81,8 +92,10 @@ a:hover {
 </style>
 <div id="gh-widget">
     <div id="gh-widget-top">
-        <span>Fork us on Github</span>
-        <a href="https://github.com/" title="Github.com" target="_blank"><img src="github-logo.png" alt="Github.com" title="Github.com" /></a>
+        <a href="https://github.com/" title="Github.com" target="_blank">
+        	<span>Follow <span class="github-username"></span> on GitHub</span>
+			<span class="github-logo">&nbsp;</span>
+        </a>
     </div>
     <div id="gh-widget-head">
         <a href="" id="gh-repo-name" target="_blank"></a>
