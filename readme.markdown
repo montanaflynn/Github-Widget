@@ -17,8 +17,6 @@ $ nano Github-Widget/example.html
 ##### Not a Command Line Ninja? Try this:
 First <a href="https://github.com/montanaflynn/Github-Widget/zipball/master">download the widget files</a> and extract them.  Now open example.html and change the iframe url to include your username and repo. You can then copy this iframe and include it on your website wherever you choose.  Make sure the path matches up.
 
-```
-
 ### Coming Soon
 WordPress Plugin,
 Multiple Repo Support, 
