@@ -1,7 +1,11 @@
 Want to share your repo's and activity on your blog or portfolio? This simple widget allows you to embed an iframe widget that pulls from a specific account and repo on Github.  
 
 ### Get Started
-All you have to do is download this repo and modify the iframe found in example.html with the username and repo you want the widget to load:  
+All you have to do is download this repo and include an iframe pointing to the github-widget.html file Make sure to change the user and repo in the src attribute.
+
+```
+<iframe src="/path/to/github-widget.html?user=montanaflynn&repo=Github-Widget" allowtransparency="true" frameborder="0" scrolling="0" width="292" height="290"></iframe>          
+```
 
 ##### From command line:
 ```
@@ -11,7 +15,9 @@ $ nano Github-Widget/example.html
 ```
 
 ##### Not a Command Line Ninja? Try this:
-First <a href="https://github.com/montanaflynn/Github-Widget/zipball/master">download the widget files</a> and extract them.  Now open example.html and change the iframe url to include your username and repo. 
+First <a href="https://github.com/montanaflynn/Github-Widget/zipball/master">download the widget files</a> and extract them.  Now open example.html and change the iframe url to include your username and repo. You can then copy this iframe and include it on your website wherever you choose.  Make sure the path matches up.
+
+```
 
 ### Coming Soon
 Multiple Repo Support, 
