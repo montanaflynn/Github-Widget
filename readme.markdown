@@ -20,9 +20,9 @@ First <a href="https://github.com/montanaflynn/Github-Widget/zipball/master">dow
 ```
 
 ### Coming Soon
+WordPress Plugin,
 Multiple Repo Support, 
-jQuery Plugin ( No iFrame ), 
-More Themes
+Unobtrusive Javascript (no iframe)
 
 ### Authors and Contributors
 This widget is a fork from @ruanmer's <a href="https://github.com/ruanmer/Github-Widget">original Github-Widget</a>.  Apparently it is also based off @markdotto's <a href="https://github.com/markdotto/github-buttons">GitHub-Buttons</a>.  Additionally it relies on the GitHub API, so thanks to everyone involved on that.
